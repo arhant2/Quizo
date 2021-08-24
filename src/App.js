@@ -10,8 +10,8 @@ const App = () => {
       <div className={styles.main}>
         <Navbar />
         <Main>
-          {/* <Quiz /> */}
-          <LandingPage />
+          <Quiz />
+          {/* <LandingPage /> */}
         </Main>
       </div>
     </div>

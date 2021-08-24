@@ -8,8 +8,6 @@ const Button = (props) => {
     style['--current-color-darker'] = `var(--color-${props.color}-darker)`;
   }
 
-  console.log(style);
-
   return (
     <button
       className={[styles.button, props.className].join(' ')}

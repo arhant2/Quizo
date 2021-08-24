@@ -1,3 +1,12 @@
 .header {
   text-align: center;
 }
+
+.heading {
+  font-size: 3.2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: var(--color-grey-dark-3);
+}

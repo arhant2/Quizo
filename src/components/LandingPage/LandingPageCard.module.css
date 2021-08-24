@@ -1,0 +1,42 @@
+.card {
+  text-align: center;
+  padding: 2rem 5rem;
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+}
+
+.icon {
+  width: 8rem;
+  height: 8rem;
+}
+
+.card:hover,
+.cardSelected {
+  border: 3px solid var(--color-yellow-lighter);
+}
+
+.cardSelected::before {
+  content: '\2713';
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  /* background-color: red; */
+  background: linear-gradient(
+    to bottom right,
+    var(--color-yellow-lighter) 0%,
+    var(--color-yellow-lighter) 50%,
+    transparent 50%,
+    transparent 100%
+  );
+
+  font-weight: 700;
+  color: var(--color-grey-light-1);
+
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  padding-right: 0.7rem;
+  padding-bottom: 4rem;
+}
