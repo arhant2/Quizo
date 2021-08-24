@@ -1,0 +1,27 @@
+/* ----------------------------------
+Main
+----------------------------------*/
+
+.container {
+  /* background-color: orange; */
+  display: flex;
+  width: 100%;
+  /* height: 100%; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  /* background-color: red; */
+  width: 90%;
+  max-width: 80rem;
+  padding: 3rem;
+}
+
+/* 550px = 34.375em (550/16) */
+@media screen and (max-width: 34.375em) {
+  .main {
+    width: 100%;
+  }
+}

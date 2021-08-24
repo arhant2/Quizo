@@ -1,0 +1,12 @@
+/* ----------------------------------
+Actions
+----------------------------------*/
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action {
+  margin-right: 1rem;
+}

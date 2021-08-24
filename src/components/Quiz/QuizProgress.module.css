@@ -1,0 +1,35 @@
+/* ----------------------------------
+Progress
+----------------------------------*/
+
+.progress {
+  text-align: center;
+}
+
+.progressEach {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: var(--color-grey-light-3_5);
+  margin: 1rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 900;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.progressEachVisited {
+  background-color: var(--color-red);
+}
+
+.progressEachDone {
+  background-color: var(--color-green);
+}
+
+.progressEachNow {
+  background-color: var(--color-blue);
+  transform: scale(1.35);
+}
