@@ -1,17 +1,21 @@
 import QuizProgress from '../../components/Quiz/QuizProgress';
-import QuizTimer from '../../components/Quiz/QuizTimer';
+import Timer from '../../components/Timer/Timer';
 import QuizQuestion from '../../components/Quiz/QuizQuestion';
 import QuizOptions from '../../components/Quiz/QuizOptions';
-import QuizActions from '../../components/Quiz/QuizActions';
+import Button from '../../utils/Button/Button';
+import Actions from '../../components/Actions/Actions';
 
 const Quiz = () => {
   return (
     <>
       <QuizProgress />
-      <QuizTimer />
+      <Timer />
       <QuizQuestion />
       <QuizOptions />
-      <QuizActions />
+      <Actions align='right'>
+        <Button color='red'>&larr; Prev</Button>
+        <Button color='blue'>Next &rarr;</Button>
+      </Actions>
     </>
   );
 };

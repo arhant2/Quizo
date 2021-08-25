@@ -1,5 +1,5 @@
 .nav {
-  background-color: #1abc9c;
+  background-color: var(--color-primary);
   color: var(--color-grey-light-1);
   display: flex;
   /* flex-direction: column; */

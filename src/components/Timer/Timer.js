@@ -1,7 +1,7 @@
 import SvgIcon from '../../utils/SvgIcon/SvgIcon';
-import styles from './QuizTimer.module.css';
+import styles from './Timer.module.css';
 
-const QuizTimer = () => {
+const Timer = () => {
   return (
     <div className={styles.timer}>
       <SvgIcon icon='clock' className={styles.timerIcon} />
@@ -13,4 +13,4 @@ const QuizTimer = () => {
   );
 };
 
-export default QuizTimer;
+export default Timer;
