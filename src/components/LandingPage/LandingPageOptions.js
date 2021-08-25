@@ -1,4 +1,3 @@
-import Button from '../../utils/Button/Button';
 import LandingPageCard from './LandingPageCard';
 import styles from './LandingPageOptions.module.css';
 
