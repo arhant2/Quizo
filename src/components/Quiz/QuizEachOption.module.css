@@ -64,6 +64,10 @@
   flex: 0 0 3rem;
 }
 
+.optionValue {
+  text-align: left;
+}
+
 .optionSelected .optionCnt,
 .optionRejected .optionCnt,
 .optionActual .optionCnt,
