@@ -5,7 +5,7 @@ import Button from '../../utils/Button/Button';
 import styles from './ResultMain.module.css';
 import quizActions from '../../store/quiz-actions';
 
-const ResultMain = () => {
+const ResultMain = (props) => {
   const { quizName, totalCnt, correctCnt } = useSelector((state) => {
     return {
       quizName: state.quizName,
@@ -49,6 +49,12 @@ const ResultMain = () => {
           Play Again
         </Button>
       </div>
+      <button
+        className={styles.showAnswers}
+        onClick={props.onToggleShowAnswers}
+      >
+        See answers
+      </button>
     </>
   );
 };

@@ -1,10 +1,19 @@
+import { useState } from 'react';
 import Main from '../../layouts/Main/Main';
 import ResultMain from '../../components/Result/ResultMain';
+import ResultAnswers from '../../components/Result/ResultAnswers';
 
 const Result = () => {
+  const [showAnswers, setShowAnswers] = useState(false);
+
+  const toggleShowAnswersHandler = () => {
+    setShowAnswers((prevShowAnswers) => !prevShowAnswers);
+  };
+
   return (
     <Main colored>
-      <ResultMain />
+      <ResultMain onToggleShowAnswers={toggleShowAnswersHandler} />
+      {showAnswers && <ResultAnswers />}
     </Main>
   );
 };

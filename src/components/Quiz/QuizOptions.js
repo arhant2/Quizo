@@ -28,6 +28,7 @@ const QuizOptions = (props) => {
             key={idx + 1}
             option={option}
             onSelectOption={props.onSelectOption?.bind(null, idx + 1)}
+            unclickable={props.unclickable}
           />
         ))}
       </div>

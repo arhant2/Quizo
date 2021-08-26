@@ -11,6 +11,8 @@ const QuizEachOption = (props) => {
     className += ' ' + styles.optionSelected;
   } else if (props.option.status === 'rejected') {
     className += ' ' + styles.optionRejected;
+  } else if (props.option.status === 'actual') {
+    className += ' ' + styles.optionActual;
   }
 
   return (

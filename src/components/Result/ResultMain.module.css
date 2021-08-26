@@ -38,3 +38,17 @@
   text-align: center;
   margin-top: 3rem;
 }
+
+.showAnswers {
+  display: block;
+  margin: 1rem auto;
+  background-color: transparent;
+  border: none;
+  color: var(--color-white);
+  font-size: 110%;
+  cursor: pointer;
+}
+
+.showAnswers:hover {
+  text-decoration: underline;
+}
