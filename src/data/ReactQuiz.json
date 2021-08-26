@@ -1,0 +1,90 @@
+{
+  "duration": "10min",
+  "questions": [
+    {
+      "question": "React: Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "What of the following is used in React.js to increase performance?",
+      "options": [
+        "Original DOM",
+        "Virtual DOM",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 2
+    },
+    {
+      "question": "How many numbers of elements a valid react component can return?",
+      "options": ["1", "2", "4", "5"],
+      "correctOption": 1
+    },
+    {
+      "question": "What are the two ways to handle data in React?",
+      "options": [
+        "State & Props",
+        "Services & Components",
+        "State & Services",
+        "State & Component"
+      ],
+      "correctOption": 1
+    },
+    {
+      "question": "Which of the following is used to pass data to a component from outside in React.js?",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    },
+    {
+      "question": "Everything in React is a .......",
+      "options": ["Module", "Component", "Package", "Class"],
+      "correctOption": 2
+    }
+  ]
+}

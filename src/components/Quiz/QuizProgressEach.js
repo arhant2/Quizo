@@ -11,7 +11,11 @@ const QuizProgressEach = (props) => {
     className += ' ' + styles.progressEachVisited;
   }
 
-  return <span className={className}>{props.children}</span>;
+  return (
+    <span className={className} onClick={props.onClick}>
+      {props.children}
+    </span>
+  );
 };
 
 export default QuizProgressEach;

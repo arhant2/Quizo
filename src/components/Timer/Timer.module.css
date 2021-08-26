@@ -11,9 +11,17 @@ Timer
   margin-top: 1rem;
 }
 
+.timerAlert {
+  color: var(--color-red-dark);
+}
+
 .timerIcon {
   width: 2.75rem;
   height: 2.75rem;
+}
+
+.timerAlert .timerIcon {
+  fill: var(--color-red-dark);
 }
 
 .timerAct {

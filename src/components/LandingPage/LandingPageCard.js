@@ -5,6 +5,7 @@ const LandingPageCard = (props) => {
   return (
     <div
       className={`${styles.card} ${props.selected ? styles.cardSelected : ''}`}
+      onClick={props.onClick}
     >
       <SvgIcon icon={props.icon} className={styles.icon} />
       <p className='text'>{props.text}</p>

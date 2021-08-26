@@ -2,7 +2,7 @@
 Main
 ----------------------------------*/
 
-.container {
+.mainOuter {
   /* background-color: orange; */
   display: flex;
   width: 100%;
@@ -17,6 +17,11 @@ Main
   width: 90%;
   max-width: 80rem;
   padding: 3rem;
+}
+
+.colored {
+  background-color: var(--color-primary);
+  border-top: 1px solid var(--color-grey-light-1);
 }
 
 /* 550px = 34.375em (550/16) */
