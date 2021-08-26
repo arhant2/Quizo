@@ -1,11 +1,20 @@
+import { useSelector } from 'react-redux';
+import ms from 'ms';
 import QuizProgressEach from '../Quiz/QuizProgressEach';
 import styles from './Instructions.module.css';
 
 const InstructionsMain = () => {
+  const { totalCnt, duration } = useSelector((state) => {
+    return {
+      totalCnt: state.questions.length,
+      duration: ms(state.durationMs, { long: true }),
+    };
+  });
+
   return (
     <ol className={styles.list}>
-      <li>This quiz consists of 15 questions.</li>
-      <li>You have 30 minutes of time.</li>
+      <li>This quiz consists of {totalCnt} questions.</li>
+      <li>You have {duration} of time.</li>
       <li>
         The top panel displays your progress
         <ul className={styles.listInner}>
