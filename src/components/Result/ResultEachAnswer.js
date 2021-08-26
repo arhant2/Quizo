@@ -2,8 +2,6 @@ import QuizQuestion from '../../components/Quiz/QuizQuestion';
 import QuizOptions from '../Quiz/QuizOptions';
 
 const getStatus = (currentOption, correctOption, selectedOption) => {
-  console.log(currentOption, correctOption, selectedOption);
-
   if (currentOption === selectedOption) {
     if (currentOption === correctOption) {
       return 'selected';
@@ -42,8 +40,6 @@ const getFeedback = (correctOption, selectedOption) => {
 };
 
 const ResultEachAnswer = (props) => {
-  console.log(props.question);
-
   const options = props.question.options.map((option, idx) => ({
     text: option,
     status: getStatus(
